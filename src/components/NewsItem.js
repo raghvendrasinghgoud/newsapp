@@ -18,7 +18,7 @@ export default class NewsItem extends Component {
     url:PropTypes.string,
     publishedAt:PropTypes.string,
     author:PropTypes.string,
-    source:PropTypes.string
+    source:PropTypes.object
 }
 
   render() {
